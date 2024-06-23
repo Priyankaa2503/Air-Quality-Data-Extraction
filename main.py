@@ -235,7 +235,7 @@ if __name__ == "__main__":
     analyzer.save_gpx_data_to_csv("danielle.csv")
     analyzer.add_bounding_boxes_to_gpx()
     # analyzer.fetch_air_quality_data(400)
-    analyzer.append_air_quality_data(710, 720)
+    analyzer.append_air_quality_data(720, 730)
     analyzer.load_survey_data()
     analyzer.process_all_survey_data()
     analyzer.save_processed_survey_data()
